@@ -145,6 +145,13 @@
         padding-left: 38px;
     }
 
+    .inline-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    }
+
     </style>
 </head>
 <body>
@@ -193,49 +200,66 @@ url={https://openreview.net/forum?id=jHc8dCx6DDr}
                 <center>
                     <img src="assets/mm.gif">
                     <br>
-                    <p class="inline-element">TransformerXL</p>
-                    <a href="./results/mm_trxl_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mm_trxl_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mm_trxl_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p>TransformerXL</p>
+                        <div>
+                            <a href="./results/mm_trxl_seed_0.html" target="_blank">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mm_trxl_seed_1.html" target="_blank">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mm_trxl_seed_2.html" target="_blank">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
                     <br>
-                    <p class="inline-element">TransformerXL <br> + Reconstruction</p>
-                    <a href="./results/mm_trxl_rec_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mm_trxl_rec_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mm_trxl_rec_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p>TransformerXL <br> + Reconstruction</p>
+                        <div>
+                            <a href="./results/mm_trxl_rec_seed_0.html" target="_blank">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mm_trxl_rec_seed_1.html" target="_blank">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mm_trxl_rec_seed_2.html" target="_blank">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
                     <br>
-                    <p class="inline-element">Gated Recurrent Unit</p>
-                    <a href="./results/mm_gru_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mm_gru_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mm_gru_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p>Gated Recurrent Unit</p>
+                        <div>
+                            <a href="./results/mm_gru_seed_0.html" target="_blank">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mm_gru_seed_1.html" target="_blank">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mm_gru_seed_2.html" target="_blank">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
                     <br>
-                    <p class="inline-element">Gated Recurrent Unit <br> + Reconstruction</p>
-                    <a href="./results/mm_gru_rec_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mm_gru_rec_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mm_gru_rec_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p>Gated Recurrent Unit <br> + Reconstruction</p>
+                        <div>
+                            <a href="./results/mm_gru_rec_seed_0.html" target="_blank">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mm_gru_rec_seed_1.html" target="_blank">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mm_gru_rec_seed_2.html" target="_blank">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
+                    
                 </center>
             </div>
 
@@ -244,27 +268,35 @@ url={https://openreview.net/forum?id=jHc8dCx6DDr}
                 <center>
                     <img src="assets/mm_grid.gif">
                     <br>
-                    <p class="inline-element">TransformerXL</p>
-                    <a href="./results/mm_grid_trxl_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mm_grid_trxl_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mm_grid_trxl_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p class="inline-element">TransformerXL</p>
+                        <div>
+                            <a href="./results/mm_grid_trxl_seed_0.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mm_grid_trxl_seed_1.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mm_grid_trxl_seed_2.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
                     <br>
-                    <p class="inline-element">Gated Recurrent Unit</p>
-                    <a href="./results/mm_grid_gru_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mm_grid_gru_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mm_grid_gru_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p class="inline-element">Gated Recurrent Unit</p>
+                        <div>
+                            <a href="./results/mm_grid_gru_seed_0.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mm_grid_gru_seed_1.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mm_grid_gru_seed_2.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>                    
                 </center>
             </div>
 
@@ -273,27 +305,35 @@ url={https://openreview.net/forum?id=jHc8dCx6DDr}
                 <center>
                     <img src="assets/mm_act_grid.gif">
                     <br>
-                    <p class="inline-element">TransformerXL</p>
-                    <a href="./results/mm_act_grid_trxl_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mm_act_grid_trxl_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mm_act_grid_trxl_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
-                    <br>
-                    <p class="inline-element">Gated Recurrent Unit</p>
-                    <a href="./results/mm_act_grid_gru_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mm_act_grid_gru_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mm_act_grid_gru_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p>TransformerXL</p>
+                        <div>
+                            <a href="./results/mm_act_grid_trxl_seed_0.html" target="_blank">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mm_act_grid_trxl_seed_1.html" target="_blank">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mm_act_grid_trxl_seed_2.html" target="_blank">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="inline-container">
+                        <p>Gated Recurrent Unit</p>
+                        <div>
+                            <a href="./results/mm_act_grid_gru_seed_0.html" target="_blank">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mm_act_grid_gru_seed_1.html" target="_blank">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mm_act_grid_gru_seed_2.html" target="_blank">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
                 </center>
             </div>
 
@@ -302,60 +342,80 @@ url={https://openreview.net/forum?id=jHc8dCx6DDr}
                 <center>
                     <img src="assets/emm.gif">
                     <br>
-                    <p class="inline-element">TransformerXL</p>
-                    <a href="./results/emm_trxl_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/emm_trxl_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/emm_trxl_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
-                    <br>
-                    <p class="inline-element">TransformerXL <br> + Ground Truth</p>
-                    <a href="./results/emm_trxl_gt_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/emm_trxl_gt_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/emm_trxl_gt_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
-                    <br>
-                    <p class="inline-element">TransformerXL <br> + QPos</p>
-                    <a href="./results/emm_trxl_qpos_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/emm_trxl_qpos_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/emm_trxl_qpos_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
-                    <br>
-                    <p class="inline-element">TransformerXL <br> + Ground Truth <br> + QPos</p>
-                    <a href="./results/emm_trxl_gt_qpos_lr_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/emm_trxl_gt_qpos_lr_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/emm_trxl_gt_qpos_lr_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
-                    <br>
-                    <p class="inline-element">Gated Recurrent Unit</p>
-                    <a href="./results/emm_gru_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/emm_gru_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/emm_gru_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p>TransformerXL</p>
+                        <div>
+                            <a href="./results/emm_trxl_seed_0.html" target="_blank">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/emm_trxl_seed_1.html" target="_blank">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/emm_trxl_seed_2.html" target="_blank">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="inline-container">
+                        <p>TransformerXL <br> + Ground Truth</p>
+                        <div>
+                            <a href="./results/emm_trxl_gt_seed_0.html" target="_blank">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/emm_trxl_gt_seed_1.html" target="_blank">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/emm_trxl_gt_seed_2.html" target="_blank">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="inline-container">
+                        <p>TransformerXL <br> + QPos</p>
+                        <div>
+                            <a href="./results/emm_trxl_qpos_seed_0.html" target="_blank">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/emm_trxl_qpos_seed_1.html" target="_blank">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/emm_trxl_qpos_seed_2.html" target="_blank">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="inline-container">
+                        <p>TransformerXL <br> + Ground Truth <br> + QPos</p>
+                        <div>
+                            <a href="./results/emm_trxl_gt_qpos_lr_seed_0.html" target="_blank">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/emm_trxl_gt_qpos_lr_seed_1.html" target="_blank">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/emm_trxl_gt_qpos_lr_seed_2.html" target="_blank">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="inline-container">
+                        <p>Gated Recurrent Unit</p>
+                        <div>
+                            <a href="./results/emm_gru_seed_0.html" target="_blank">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/emm_gru_seed_1.html" target="_blank">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/emm_gru_seed_2.html" target="_blank">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
                 </center>
             </div>
         </div>
@@ -367,27 +427,35 @@ url={https://openreview.net/forum?id=jHc8dCx6DDr}
                 <center>
                     <img src="assets/mp.gif">
                     <br>
-                    <p class="inline-element">TransformerXL</p>
-                    <a href="./results/mp_trxl_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mp_trxl_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mp_trxl_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p>TransformerXL</p>
+                        <div>
+                            <a href="./results/mp_trxl_seed_0.html" target="_blank">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mp_trxl_seed_1.html" target="_blank">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mp_trxl_seed_2.html" target="_blank">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
                     <br>
-                    <p class="inline-element">Gated Recurrent Unit</p>
-                    <a href="./results/mp_gru_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mp_gru_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mp_gru_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p>Gated Recurrent Unit</p>
+                        <div>
+                            <a href="./results/mp_gru_seed_0.html" target="_blank">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mp_gru_seed_1.html" target="_blank">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mp_gru_seed_2.html" target="_blank">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
                 </center>
             </div>
 
@@ -396,27 +464,35 @@ url={https://openreview.net/forum?id=jHc8dCx6DDr}
                 <center>
                     <img src="assets/mp_grid_off.gif">
                     <br>
-                    <p class="inline-element">TransformerXL</p>
-                    <a href="./results/mp_grid_off_trxl_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mp_grid_off_trxl_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mp_grid_off_trxl_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p class="inline-element">TransformerXL</p>
+                        <div>
+                            <a href="./results/mp_grid_off_trxl_seed_0.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mp_grid_off_trxl_seed_1.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mp_grid_off_trxl_seed_2.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
                     <br>
-                    <p class="inline-element">Gated Recurrent Unit</p>
-                    <a href="./results/mp_grid_off_gru_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mp_grid_off_gru_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mp_grid_off_gru_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p class="inline-element">Gated Recurrent Unit</p>
+                        <div>
+                            <a href="./results/mp_grid_off_gru_seed_0.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mp_grid_off_gru_seed_1.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mp_grid_off_gru_seed_2.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>                    
                 </center>
             </div>
 
@@ -425,27 +501,35 @@ url={https://openreview.net/forum?id=jHc8dCx6DDr}
                 <center>
                     <img src="assets/mp_grid_on.gif">
                     <br>
-                    <p class="inline-element">TransformerXL</p>
-                    <a href="./results/mp_grid_on_trxl_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mp_grid_on_trxl_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mp_grid_on_trxl_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p class="inline-element">TransformerXL</p>
+                        <div>
+                            <a href="./results/mp_grid_on_trxl_seed_0.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mp_grid_on_trxl_seed_1.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mp_grid_on_trxl_seed_2.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
                     <br>
-                    <p class="inline-element">Gated Recurrent Unit</p>
-                    <a href="./results/mp_grid_on_gru_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/mp_grid_on_gru_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/mp_grid_on_gru_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p class="inline-element">Gated Recurrent Unit</p>
+                        <div>
+                            <a href="./results/mp_grid_on_gru_seed_0.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/mp_grid_on_gru_seed_1.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/mp_grid_on_gru_seed_2.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div> 
                 </center>
             </div>
 
@@ -454,27 +538,36 @@ url={https://openreview.net/forum?id=jHc8dCx6DDr}
                 <center>
                     <img src="assets/emp.gif">
                     <br>
-                    <p class="inline-element">TransformerXL</p>
-                    <a href="./results/emp_trxl_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/emp_trxl_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/emp_trxl_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p class="inline-element">TransformerXL</p>
+                        <div>
+                            <a href="./results/emp_trxl_seed_0.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/emp_trxl_seed_1.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/emp_trxl_seed_2.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>
                     <br>
-                    <p class="inline-element">Gated Recurrent Unit</p>
-                    <a href="./results/emp_gru_seed_0.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 0</button>
-                    </a>
-                    <a href="./results/emp_gru_seed_1.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 1</button>
-                    </a>
-                    <a href="./results/emp_gru_seed_2.html" target="_blank" class="inline-element">
-                        <button class="inline-element">Seed 2</button>
-                    </a>
+                    <div class="inline-container">
+                        <p class="inline-element">Gated Recurrent Unit</p>
+                        <div>
+                            <a href="./results/emp_gru_seed_0.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 0</button>
+                            </a>
+                            <a href="./results/emp_gru_seed_1.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 1</button>
+                            </a>
+                            <a href="./results/emp_gru_seed_2.html" target="_blank" class="inline-element">
+                                <button class="inline-element">Seed 2</button>
+                            </a>
+                        </div>
+                    </div>                    
+                </a>
             </div>
         </div>
 
@@ -486,27 +579,35 @@ url={https://openreview.net/forum?id=jHc8dCx6DDr}
                     <center>
                         <img src="assets/ss.gif">
                         <br>
-                        <p class="inline-element">TransformerXL <br> + Reconstruction</p>
-                        <a href="./results/ss_trxl_rec_seed_0.html" target="_blank" class="inline-element">
-                            <button class="inline-element">Seed 0</button>
-                        </a>
-                        <a href="./results/ss_trxl_rec_seed_1.html" target="_blank" class="inline-element">
-                            <button class="inline-element">Seed 1</button>
-                        </a>
-                        <a href="./results/ss_trxl_rec_seed_2.html" target="_blank" class="inline-element">
-                            <button class="inline-element">Seed 2</button>
-                        </a>
-                        <br>
-                        <p class="inline-element">Gated Recurrent Unit <br> + Reconstruction</p>
-                        <a href="./results/ss_gru_rec_seed_0.html" target="_blank" class="inline-element">
-                            <button class="inline-element">Seed 0</button>
-                        </a>
-                        <a href="./results/ss_gru_rec_seed_1.html" target="_blank" class="inline-element">
-                            <button class="inline-element">Seed 1</button>
-                        </a>
-                        <a href="./results/ss_gru_rec_seed_2.html" target="_blank" class="inline-element">
-                            <button class="inline-element">Seed 2</button>
-                        </a>
+                        <div class="inline-container">
+                            <p>TransformerXL <br> + Reconstruction</p>
+                            <div>
+                                <a href="./results/ss_trxl_rec_seed_0.html" target="_blank">
+                                    <button class="inline-element">Seed 0</button>
+                                </a>
+                                <a href="./results/ss_trxl_rec_seed_1.html" target="_blank">
+                                    <button class="inline-element">Seed 1</button>
+                                </a>
+                                <a href="./results/ss_trxl_rec_seed_2.html" target="_blank">
+                                    <button class="inline-element">Seed 2</button>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="inline-container">
+                            <p>Gated Recurrent Unit <br> + Reconstruction</p>
+                            <div>
+                                <a href="./results/ss_gru_rec_seed_0.html" target="_blank">
+                                    <button class="inline-element">Seed 0</button>
+                                </a>
+                                <a href="./results/ss_gru_rec_seed_1.html" target="_blank">
+                                    <button class="inline-element">Seed 1</button>
+                                </a>
+                                <a href="./results/ss_gru_rec_seed_2.html" target="_blank">
+                                    <button class="inline-element">Seed 2</button>
+                                </a>
+                            </div>
+                        </div>
                     </center>
                 </div>
     
@@ -515,27 +616,34 @@ url={https://openreview.net/forum?id=jHc8dCx6DDr}
                     <center>
                         <img src="assets/ess.gif">
                         <br>
-                        <p class="inline-element">TransformerXL <br> + Reconstruction</p>
-                        <a href="./results/ess_trxl_rec_seed_0.html" target="_blank" class="inline-element">
-                            <button class="inline-element">Seed 0</button>
-                        </a>
-                        <a href="./results/ess_trxl_rec_seed_1.html" target="_blank" class="inline-element">
-                            <button class="inline-element">Seed 1</button>
-                        </a>
-                        <a href="./results/ess_trxl_rec_seed_2.html" target="_blank" class="inline-element">
-                            <button class="inline-element">Seed 2</button>
-                        </a>
-                        <br>
-                        <p class="inline-element">Gated Recurrent Unit <br> + Reconstruction</p>
-                        <a href="./results/ess_gru_rec_seed_0.html" target="_blank" class="inline-element">
-                            <button class="inline-element">Seed 0</button>
-                        </a>
-                        <a href="./results/ess_gru_rec_seed_1.html" target="_blank" class="inline-element">
-                            <button class="inline-element">Seed 1</button>
-                        </a>
-                        <a href="./results/ess_gru_rec_seed_2.html" target="_blank" class="inline-element">
-                            <button class="inline-element">Seed 2</button>
-                        </a>
+                        <div class="inline-container">
+                            <p>TransformerXL <br> + Reconstruction</p>
+                            <div>
+                                <a href="./results/ess_trxl_rec_seed_0.html" target="_blank">
+                                    <button class="inline-element">Seed 0</button>
+                                </a>
+                                <a href="./results/ess_trxl_rec_seed_1.html" target="_blank">
+                                    <button class="inline-element">Seed 1</button>
+                                </a>
+                                <a href="./results/ess_trxl_rec_seed_2.html" target="_blank">
+                                    <button class="inline-element">Seed 2</button>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="inline-container">
+                            <p>Gated Recurrent Unit <br> + Reconstruction</p>
+                            <div>
+                                <a href="./results/ess_gru_rec_seed_0.html" target="_blank">
+                                    <button class="inline-element">Seed 0</button>
+                                </a>
+                                <a href="./results/ess_gru_rec_seed_1.html" target="_blank">
+                                    <button class="inline-element">Seed 1</button>
+                                </a>
+                                <a href="./results/ess_gru_rec_seed_2.html" target="_blank">
+                                    <button class="inline-element">Seed 2</button>
+                                </a>
+                            </div>
                     </center>
                 </div>
             </div>

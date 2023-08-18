@@ -5,161 +5,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experiments</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #181818;
-            color: #EAEAEA;
-        }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #181818;
+        color: #EAEAEA;
+    }
 
-        h1 {
-            text-align: center;
-            margin-bottom: 40px;
-        }
+    h1 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
 
-        .container {
-            max-width: 1800px;
-            margin: left;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin-left: 38px;
-        }
+    .container {
+        max-width: 1800px;
+        margin: left;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 38px;
+    }
 
-        .section {
-            flex: 0 1 calc(33.3333% - 10px); 
-            margin-bottom: 20px;
-        }
+    .section {
+        flex: 0 1 calc(33.3333% - 10px); 
+        margin-bottom: 20px;
+    }
 
-        .collapsible {
-            background-color: #2E2E2E;
-            color: #EAEAEA;
-            cursor: pointer;
-            padding: 18px;
-            width: 100%;
-            border: 1px solid #333;
-            text-align: left;
-            outline: none;
-            font-size: 15px;
-            transition: background-color 0.3s;
-        }
+    .collapsible {
+        background-color: #2E2E2E;
+        color: #EAEAEA;
+        cursor: pointer;
+        padding: 18px;
+        width: 591px;
+        border: 1px solid #333;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: background-color 0.3s;
+    }
 
-        .collapsible:hover {
-            background-color: #444;
-        }
-
-        .content {
-            padding: 0 18px;
-            display: none;
-            overflow: hidden;
-            background-color: #1C1C1C;
-            border-bottom: 1px solid #333;
-        }
-
-        .inline-element {
-            display: inline-block;
-            vertical-align: middle;
-            margin-right: 10px;
-        }
-
-        button.inline-element {
-            background-color: #555;
-            color: #EAEAEA;
-            border: none;
-            padding: 5px 10px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        button.inline-element:hover {
-            background-color: #777;
-        }
-
-        img.inline-element {
-            width: 60px;
-            height: 60px;
-            margin-top: 10px;
-        }
-
-        .info-section {
-    display: flex;
-    align-items: flex-start;
-    gap: 15px;
-}
-
-.github-section {
-    font-family: Arial, sans-serif;
-    margin-top: 0px;
-    color: #EAEAEA;
-}
-
-.github-label {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 38px;
-}
-
-.citation-section {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-}
-
-.citation-header {
-    margin: 0;
-    padding-left: 0px; /* You may need to adjust this value to match the .github-label padding */
-}
-
-.bibtex {
-    background-color: #2E2E2E;
-    padding: 23px;
-    margin-top: 0px;
-    border: 1px solid #333;
-    font-family: "Courier New", Courier, monospace;
-    margin: 0;
-    flex: 1;
-    height: 0px;
-    width: 1140px;
-    max-width: 1160px;
-    display: flex;
-    align-items: center;
-}
-
-.btn-group {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding-left: 38px;
-    padding-right: 0px;
-}
-
-.github-btn {
-    background-color: #2E2E2E;
-    color: #EAEAEA;
-    padding: 10px 15px;
-    border: 1px solid #333;
-    text-decoration: none;
-    transition: background-color 0.3s;
-    border-radius: 4px;
-    display: block;
-    width: 562px;
-}
-
-    .github-btn:hover {
+    .collapsible:hover {
         background-color: #444;
     }
 
-    .contents {
+    .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #1C1C1C;
+        border-bottom: 1px solid #333;
+    }
+
+    .inline-element {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    button.inline-element {
+        background-color: #555;
+        color: #EAEAEA;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button.inline-element:hover {
+        background-color: #777;
+    }
+
+    img.inline-element {
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+    }
+
+    .info-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    }
+
+    .github-section {
+        font-family: Arial, sans-serif;
+        margin-top: 0px;
+        color: #EAEAEA;
+    }
+
+    .github-label {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         padding-left: 38px;
     }
 
-    .inline-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
+    .citation-section {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
     }
+
+    .citation-header {
+        margin: 0;
+        padding-left: 0px; /* You may need to adjust this value to match the .github-label padding */
+    }
+
+    .bibtex {
+        background-color: #2E2E2E;
+        padding: 23px;
+        margin-top: 0px;
+        border: 1px solid #333;
+        font-family: "Courier New", Courier, monospace;
+        margin: 0;
+        flex: 1;
+        height: 0px;
+        width: 1140px;
+        max-width: 1160px;
+        display: flex;
+        align-items: center;
+    }
+
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 38px;
+        padding-right: 0px;
+    }
+
+    .github-btn {
+        background-color: #2E2E2E;
+        color: #EAEAEA;
+        padding: 10px 15px;
+        border: 1px solid #333;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        border-radius: 4px;
+        display: block;
+        width: 562px;
+    }
+
+        .github-btn:hover {
+            background-color: #444;
+        }
+
+        .contents {
+            padding-left: 38px;
+        }
+
+        .inline-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        }
 
     </style>
 </head>

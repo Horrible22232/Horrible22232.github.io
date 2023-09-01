@@ -18,18 +18,23 @@
     }
 
     .container {
-        max-width: 1800px;
-        margin: left;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: 38px;
+    max-width: 1800px;
+    margin-left: 38px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+	overflow: visible ;
     }
 
     .section {
-        flex: 0 1 calc(33.3333% - 10px); 
-        margin-bottom: 20px;
-    }
+		margin-bottom: 20px;
+		box-sizing: border-box;
+		width: 591px;
+		flex-grow: 0;
+		flex-shrink: 0;
+		flex-basis: auto;
+		margin: 4px;
+	}
 
     .collapsible {
         background-color: #2E2E2E;
@@ -157,6 +162,7 @@
         .inline-container {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 10px;
         }
